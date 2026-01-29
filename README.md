@@ -36,6 +36,14 @@ This extension gives you back a simple textarea where you can write markdown wit
 - Saves directly via Trello's API
 - Cancel button restores the original editor if needed
 
+## Building
+
+To create a ZIP file for Chrome Web Store submission:
+
+```bash
+zip -r trello-markdown-editor.zip manifest.json content.js styles.css icon48.png icon128.png
+```
+
 ## License
 
 Copyright (c) Werner Robitza
