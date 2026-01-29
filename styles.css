@@ -1,0 +1,74 @@
+/* Trello Markdown Editor Styles */
+
+.trello-md-editor-container {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.trello-md-editor-textarea {
+  width: 100%;
+  min-height: 200px;
+  max-height: 60vh;
+  padding: 12px;
+  border: 2px solid #0079bf !important;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  resize: vertical;
+  background-color: #1d2125 !important;
+  color: #b6c2cf !important;
+  box-sizing: border-box;
+}
+
+.trello-md-editor-textarea:focus {
+  outline: none;
+  border-color: #579dff !important;
+  box-shadow: 0 0 0 1px #579dff;
+}
+
+.trello-md-editor-textarea::placeholder {
+  color: #738496 !important;
+}
+
+.trello-md-editor-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.trello-md-editor-save,
+.trello-md-editor-cancel {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.trello-md-editor-save {
+  background-color: #0079bf !important;
+  color: #fff !important;
+}
+
+.trello-md-editor-save:hover {
+  background-color: #026aa7 !important;
+}
+
+.trello-md-editor-cancel {
+  background-color: #a1bdd914 !important;
+  color: #b6c2cf !important;
+}
+
+.trello-md-editor-cancel:hover {
+  background-color: #a6c5e229 !important;
+}
+
+.trello-md-editor-hint {
+  margin-left: auto;
+  font-size: 12px;
+  color: #9fadbc !important;
+}
