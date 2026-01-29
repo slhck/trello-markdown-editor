@@ -1,12 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Trello Markdown Editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace Trello's rich text editor with a plain markdown textarea",
   "permissions": [],
-  "host_permissions": [
-    "https://trello.com/*"
-  ],
   "content_scripts": [
     {
       "matches": ["https://trello.com/*"],
